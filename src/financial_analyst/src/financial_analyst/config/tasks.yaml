@@ -1,0 +1,18 @@
+research_company_task:
+  description: >
+    Use search tools at your disposal to look up this company's stock information: {company_name}
+    and it's 10-Q and 10-K reports.
+    The goal is to prepare enough information to make an informed analysis of the 
+    company's stock performance and financial performance.
+  expected_output: >
+    All of the relevant financial information about the company's stock performance from the
+    stock performance as well as the 10-Q and 10-K reports.
+
+analyze_company_task:
+  description: >
+    Take {company_name}'s financial information, analyze it and provide a financial 
+    analysis including profitability ratios, liquidity ratios, solvency ratios, efficiency ratios,
+    growth metrics, valuation metrics, and cash flow metrics.
+  expected_output: >
+    A nicely formatted analysis including all of the financial metrics necessary for a 
+    thorough analysis of a company in markdown format.

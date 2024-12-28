@@ -10,7 +10,7 @@ research_task = Task(
         its market opportunities and potential risks.
     """,
     expected_output="""
-        A comprehensive 3 paragraph report on the latest trends in {topic}
+        A comprehensive report on the latest trends in {topic}
     """,
     tools=[search_tool],
     agent=researcher,
@@ -23,7 +23,7 @@ edit_task = Task(
         This article should be easy to understand, engaging and positive.
     """,
     expected_output="""
-        A 4 paragraph article on {topic} advancements formatted as markdown.
+        A article, of approximately 5000 words, on {topic} advancements formatted as markdown file.
     """,
     tools=[search_tool],
     agent=editor,

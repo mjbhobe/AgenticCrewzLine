@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "financial_analyst"
+version = "0.1.0"
+description = "Financial Analysis of a Company"
+authors = ["Manish Bhobe <mjbhobe@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = {extras = ["tools"], version = "^0.41.1"}
+python-dotenv = "^1.0.1"
+html2text = "^2024.2.26"
+sec-api = "^1.0.20"
+
+[tool.poetry.scripts]
+financial_analyst = "financial_analyst.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

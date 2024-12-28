@@ -1,9 +1,11 @@
 # python packages needed for CrewAI Examples with Gemini LLM
 crewai 
 crewai-tools
+langchain-community
 langchain_google_genai  # for Gemini LLM
 uv
-
+sec_api
+html2text
 
 
 
